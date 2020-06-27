@@ -1,0 +1,18 @@
+# Input file and sheet names
+inputs:
+  - { file: example/input.xlsx, sheet: Sheet1 }
+  - { file: example/input.xlsx, sheet: Sheet2 }
+
+# Output file and sheet name
+output:
+  file: example/output.xlsx
+  sheet: Sheet1
+
+# The properties you want from the Geoclient API (see geoclient-properties.yml for more info)
+geoclient_request_properties:
+  - nta
+  - ntaName
+  - cityCouncilDistrict
+  - assemblyDistrict
+  - stateSenatorialDistrict
+  - congressionalDistrict
